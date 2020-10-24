@@ -54,10 +54,21 @@ This bar chart displays that the percentage of females with the virus is higher 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The table displays that 56% of females that are infected are alive and 44% of males that are infected are alive. It also shows that from the total population from the people that died 36% of them are females and 64% percent are males. 
 
 ## Inferential results 
 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 ## Conclusions
