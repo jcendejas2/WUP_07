@@ -45,9 +45,11 @@ barchartGC(~result + Sex,data=kRdata, main ="Frequency Bar Chart")
   
 ### this bar chart is displaying in total frequency terms our data.  Clearly there are a lot less dead people than alive people as is reflected by the sizes of the bars in the display.  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata,type="percent", main ="Percentage Bar Chart")
+```
 
-
-
+This bar chart displays that the percentage of females with the virus is higher than the males, but the percentage of the females dying from the virus is far less than the males dying. 
 
   
 ## Numerical results
