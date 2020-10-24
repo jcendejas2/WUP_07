@@ -70,6 +70,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+The odds of dying if you're a male is 44/1411. The odds of dying if you're a female is 25/1831.  
+The odd ratio is(44/1411)/(25/1831). The odds of dying is 2.3 to 1. 
 
 ## Conclusions
 
