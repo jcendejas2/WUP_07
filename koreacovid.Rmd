@@ -76,4 +76,4 @@ The odd ratio is(44/1411)/(25/1831). The odds of dying is 2.3 to 1.
 
 ## Conclusions
 
-The p-value from the fisher's test was 0.0009 and the chisquare was 0.0012 which are < 0.05 therefore we reject the null hypothesis. The graphs shows that there is a significant difference between percent of males dying and the percentage of females dying.   
+The p-value from the fisher's test was 0.0009 and the chisquare was 0.0012 which are < 0.05 therefore we reject the null hypothesis. The graphs shows that there is a significant difference between percent of males dying and the percentage of females dying because more males are dying than females.   
